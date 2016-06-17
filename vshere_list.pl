@@ -56,6 +56,7 @@ foreach my $host_view (@$host_views) {
 if($cluster_view) {
      my $vm_list = Vim::find_entity_views(  view_type => 'VirtualMachine',
                                                                  begin_entity => $cluster_view,
+                                                                 # modify this filter if you want print another VMs type
                                                                  filter => { 'config.guestFullName' => qr/Linux/ },
                                                                  properties => [ 'name' ] );
 
