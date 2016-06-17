@@ -11,6 +11,6 @@ Using VMware-vSphere-CLI-5.5.0-2043780.x86_64.tar.gz
 View the manual
 
 example:
-
-  - perl vshere_list.pl --server <vsphere_host> --username <username> --password <password> --datacenter <datacenter_name>
+~~~
+  perl vshere_list.pl --server <vsphere_host> --username <username> --password <password> --datacenter <datacenter_name>
 
